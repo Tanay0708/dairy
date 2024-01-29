@@ -1,5 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, dairy01, dairy02, dairy03, dairy033, danedar, quality, shoe4, shoe5, shoe6, shoe7, smell, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, white } from "../assets/images";
+import {craft, d1, d10, d11, d12, d13, d2, d3, d4, d5, d6, d7, d8, d9, taste} from '../assets/new';
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -8,19 +9,65 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact Us" },
 ];
 
+
+export const galleryPic = [
+    {
+        pic: d1
+    },
+    {
+        pic: d2
+    },
+    {
+        pic: d3
+    },
+    {
+        pic: d4
+    },
+    {
+        pic: d5
+    },
+    {
+        pic: d6
+    },
+    {
+        pic: d7
+    },
+    {
+        pic: d8
+    },
+    {
+        pic: d9
+    },
+    {
+        pic: d10
+    },
+    {
+        pic: d11
+    },
+    {
+        pic: d12
+    },
+    {
+        pic: d13
+    },
+
+
+]
+
 export const shoes = [
     {
-        thumbnail: 'https://sidsfarm.com/wp-content/uploads/2021/08/Cow-Milk-1.png',
-        bigShoe: 'https://sidsfarm.com/wp-content/uploads/2021/08/Cow-Milk-1.png',
+        thumbnail: dairy01,
+        bigShoe: dairy01,
     },
     {
-        thumbnail: 'https://sidsfarm.com/wp-content/uploads/2023/08/Website-Image-03-1.png',
-        bigShoe: 'https://sidsfarm.com/wp-content/uploads/2023/08/Website-Image-03-1.png',
+        thumbnail: dairy02,
+        bigShoe: dairy02,
     },
     {
-        thumbnail: 'https://sidsfarm.com/wp-content/uploads/2021/06/Product-Sets_Skim-Milk.png',
-        bigShoe: 'https://sidsfarm.com/wp-content/uploads/2021/06/Product-Sets_Skim-Milk.png',
+        thumbnail: dairy033,
+        bigShoe: dairy033,
     },
+    
 ];
 
 export const statistics = [
@@ -31,42 +78,38 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: 'https://sidsfarm.com/wp-content/uploads/2021/08/Cow-Milk-1.png',
-        name: "Milk",
-        price: "$200.20",
+        imgURL: dairy01,
+        name: "500 ml",
+        price: "₹500",
     },
     {
-        imgURL: 'https://sidsfarm.com/wp-content/uploads/2021/08/Cow-Milk-1.png',
-        name: "Curd",
-        price: "$210.20",
+        imgURL: dairy02,
+        name: "5 L",
+        price: "₹100",
     },
     {
-        imgURL: 'https://sidsfarm.com/wp-content/uploads/2021/08/Cow-Milk-1.png',
-        name: "Paneer",
-        price: "$220.20",
+        imgURL: dairy03,
+        name: "100 ml",
+        price: "₹20",
     },
-    {
-        imgURL: 'https://sidsfarm.com/wp-content/uploads/2021/08/Cow-Milk-1.png',
-        name: "Butter",
-        price: "$230.20",
-    },
+   
 ];
 
 export const services = [
     {
-        imgURL: truckFast,
+        imgURL: quality,
         label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        subtext: "Sourced from the finest dairy, our ghee is a symbol of uncompromised quality and unparalleled taste."
     },
     {
-        imgURL: shieldTick,
+        imgURL: craft,
         label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        subtext: "Our ghee is meticulously crafted using traditional methods, preserving the authenticity and purity of this ancient culinary treasure."
     },
     {
-        imgURL: support,
+        imgURL: taste,
         label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        subtext: "Elevate your cooking with the rich, nutty flavor of ghee. Whether sautéing, frying, or drizzling over your favorite dishes, Pure Gold Ghee adds a touch of decadence to every meal."
     },
 ];
 

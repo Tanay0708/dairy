@@ -1,6 +1,17 @@
 import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
+import dairy01 from './dairy01.png'
+import dairy02 from './dairy02.png'
+import dairy03 from './dairy03.png'
+import dairy033 from './dairy033.png'
+import dairyLogo from './dairyLogo.png'
+import white from './white.jpg'
+import smell from './smell1.jpg'
+import danedar from './danedar.jpg'
+import quality from './quality.jpg'
+import dh from './dh.png'
+
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
@@ -25,13 +36,21 @@ export {
     bigShoe1,
     bigShoe2,
     bigShoe3,
-
+    dairy01,
+    dairy02,
+    dairy03,
+    dairy033,
+    dairyLogo,
+    white,
+    smell,
+    danedar,
+    quality,
     customer1,
     customer2,
 
     footerLogo,
     headerLogo,
-
+    dh,
     offer,
     shoe4,
     shoe5,
