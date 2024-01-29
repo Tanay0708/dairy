@@ -18,6 +18,8 @@ const Footer = () => {
         <span className="font-bold text-gray-400">SHREE KUBER ENTERPRISES</span>
         <br />
        <span className="font-bold text-gray-400"> 92, Sanchar Nagar Indore, 452016</span>
+       <br />
+       Customer Care:<span className="font-bold text-gray-400"> 09522444444,09926550022</span>
       </p>
       
       
