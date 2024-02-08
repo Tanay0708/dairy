@@ -1,4 +1,5 @@
 import React from 'react'
+import '../index.css'
 
 export const DotButton = (props) => {
   const { children, ...restProps } = props
