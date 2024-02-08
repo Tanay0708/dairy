@@ -1,4 +1,4 @@
-import { dh, shoe8 } from "../assets/images"
+import { dh, ghee, shoe8 } from "../assets/images"
 import Button from "../components/Button"
 
 
@@ -9,12 +9,12 @@ const SuperQuality = () => {
       
 
       <h2 className='font-palanquin text-4xl  font-bold lg:max-w-lg'>
-        Discover  <span className="text-coral-red">
-        Magic</span><span className="text-coral-red"> of Ghee
+      जानिए  <span className="text-coral-red">
+      घी </span><span className="text-coral-red"> का जादू
        </span> 
       </h2>
       <p className='mt-4 info-text lg:max-w-lg'>
-      Packed with essential nutrients, our ghee is known for its potential health benefits. Explore the goodness that comes with each spoonful.
+      आवश्यक पोषक तत्वों से भरपूर, हमारा घी अपने संभावित स्वास्थ्य लाभों के लिए जाना जाता है। प्रत्येक चम्मच के साथ आने वाली अच्छाइयों का अन्वेषण करें।
       
       </p>
     
@@ -24,7 +24,7 @@ const SuperQuality = () => {
      
       </div>
       <div className="flex-1 flex justify-center items-center">
-<img src={dh} alt="" width={570} height={522} className="object-contain"/>
+<img src='https://www.livofy.com/health/wp-content/uploads/2023/03/Ghee.png' alt="" width={570} height={522} className="object-contain"/>
       </div>
     </section>
   )

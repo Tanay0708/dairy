@@ -11,7 +11,8 @@ import smell from './smell1.jpg'
 import danedar from './danedar.jpg'
 import quality from './quality.jpg'
 import dh from './dh.png'
-
+import jar1ltr from './jar1ltr.png'
+import bucket from './bucket.png'
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
@@ -26,6 +27,7 @@ import shoe5 from './shoe5.svg'
 import shoe6 from './shoe6.svg'
 import shoe7 from './shoe7.svg'
 import shoe8 from './shoe8.svg'
+import ghee from './ghee.png'
 
 import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
@@ -47,7 +49,7 @@ export {
     quality,
     customer1,
     customer2,
-
+    jar1ltr,
     footerLogo,
     headerLogo,
     dh,
@@ -57,6 +59,8 @@ export {
     shoe6,
     shoe7,
     shoe8,
+    bucket,
+    ghee,
 
     thumbnailBackground,
     thumbnailShoe1,

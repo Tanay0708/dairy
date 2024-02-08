@@ -1,11 +1,15 @@
+import FloatingNav from "../components/FloatingNav";
+import { ParallaxScrollDemo } from "../components/ParallaxScrollDemo";
 import Nav from "../components/Nav";
 import { CustomerReview, Footer, Hero, PopularProduct, Services, SpecialOffer, SuperQuality } from "../sections";
+import { EmblaCarousel } from "../components/EmblaCarousel";
 
 
 const All = () => {
   return (
     <main className="relative">
     <Nav />
+    <FloatingNav />
     <section className="xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
@@ -14,10 +18,17 @@ const All = () => {
     </section>
     <section className="padding">
       <SuperQuality/>
+      {/* <EmblaCarousel /> */}
     </section>
     <section className="padding-x py-10">
       <Services />
+    
     </section>
+    <section className="padding-x py-10">
+      <ParallaxScrollDemo />
+    
+    </section>
+
     <section className="padding ">
       <SpecialOffer />
     </section>
