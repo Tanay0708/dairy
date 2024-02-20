@@ -48,13 +48,13 @@ const All = () => {
     
     <Subscribe />
     </section>
-    <section className="padding-x py-10">
+    {/* <section className="padding-x py-10">
     
     <Footer />
     </section>
     <section className="padding-x  padding-t pb-8">
     
-    </section>
+    </section> */}
   </main>
   )
 }
