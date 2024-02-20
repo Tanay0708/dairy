@@ -67,22 +67,7 @@ const FloatingNav = () => {
                 ))
             }
         </ul>
-        {/* <div className={`hidden max-lg:block `}>
-            <img src={hamburger} alt="" width={25} height={25} onClick={handleClick} />
-        </div>
-        <div className={`hidden max-lg:${show == true ? 'hidden' : 'block' }  `}>
-           <div className='absolute right-10 top-2' onClick={handleClick}>
-            x
-           </div>
-           <ul className='absolute top-10 right-10 bg-white' >
-            {navLinks.map((item) => (
-                <li key={item.label}>
-                    <a href={item.href} className='font-montserrat leading-normal text-lg text-slate-gray'> {item.label}</a>
-                </li>
-            ))
-            }
-           </ul>
-        </div> */}
+       
         </motion.div>
         </AnimatePresence>
        

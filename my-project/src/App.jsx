@@ -1,15 +1,14 @@
+import About from "./Pages/About";
 import All from "./Pages/All";
 import MainRoute from "./Pages/MainRoute";
-import Nav from "./components/Nav";
+
 
 
 
 const App = () => (
- <div>
+ <div className="bg-[#F7EFED]  "> 
   <MainRoute />
-  {/* <Nav /> */}
-    
-    {/* <All /> */}
+    {/* <About /> */}
  </div>
 )
 

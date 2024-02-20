@@ -1,53 +1,32 @@
-import React, { useState } from 'react';
-import {dairyLogo, dh, headerLogo} from '../assets/images';
-import {hamburger} from '../assets/icons';
-import { navLinks } from '../constants';
+import React from 'react'
+import { dairyLogo } from '../assets/images';
+import { hamburger } from '../assets/icons';
+
 
 const Nav = () => {
-
-    const [show,setShow] = useState(true);
-
-    const handleClick = () => {
-        setShow(prev => !prev);
-    }
-
-
-
   return (
-   <header className='padding-x py-8 absolute z-10 w-full '>
-    <nav className='flex justify-between items-center max-container'>
-        <a href="/">
-            <img src={dh} alt="logo" width={130} height={29} />
-        </a>
-        {/* <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
-            {
-                navLinks.map((item) => (
-                    <li key={item.label}>
-                            <a href={item.href} className='font-montserrat leading-normal text-lg text-slate-gray'>
-                                {item.label}
-                            </a>
-                    </li>
-                ))
-            }
+    <nav className='h-28 max-sm:h-26 flex justify-between items-center max-sm:p-5 max-sm:bg-white max-sm:fixed z-[999] w-full'>
+        <img src={dairyLogo} className='h-full w-32' alt="" />
+        <ul className='flex items-center gap-10 text-[18px] font-[700] max-sm:hidden'>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>PRODUCT</li>
+          <li>GALLERY</li>
         </ul>
-        <div className={`hidden max-lg:block `}>
-            <img src={hamburger} alt="" width={25} height={25} onClick={handleClick} />
+        <button className='border-2 h-[60%] w-52 bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
+          Contact Us
+        </button>
+        <div className='max-sm:flex gap-2 hidden '>
+
+        
+        <button className='hidden max-sm:block  w-20 h-10 rounded-full bg-[#F2D913] text-[20px]'>
+      Hindi
+        </button>
+        <button className='hidden max-sm:block h-10  bg-black rounded-full w-10   '>
+<img src={hamburger} alt="" className='h-[40%] m-auto  ' />
+        </button>
         </div>
-        <div className={`hidden max-lg:${show == true ? 'hidden' : 'block' }  `}>
-           <div className='absolute right-10 top-2' onClick={handleClick}>
-            x
-           </div>
-           <ul className='absolute top-10 right-10 bg-white' >
-            {navLinks.map((item) => (
-                <li key={item.label}>
-                    <a href={item.href} className='font-montserrat leading-normal text-lg text-slate-gray'> {item.label}</a>
-                </li>
-            ))
-            }
-           </ul>
-        </div> */}
     </nav>
-   </header>
   )
 }
 

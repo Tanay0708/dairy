@@ -1,32 +1,31 @@
-import { dh, ghee, shoe8 } from "../assets/images"
+import { arrowRight } from "../assets/icons"
+import { dh, ghee } from "../assets/images"
 import Button from "../components/Button"
 
 
 const SuperQuality = () => {
   return (
-    <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
-      <div className="flex flex-1 flex-col">
-      
-
-      <h2 className='font-palanquin text-4xl  font-bold lg:max-w-lg'>
-      जानिए  <span className="text-coral-red">
-      घी </span><span className="text-coral-red"> का जादू
-       </span> 
-      </h2>
-      <p className='mt-4 info-text lg:max-w-lg'>
-      आवश्यक पोषक तत्वों से भरपूर, हमारा घी अपने संभावित स्वास्थ्य लाभों के लिए जाना जाता है। प्रत्येक चम्मच के साथ आने वाली अच्छाइयों का अन्वेषण करें।
-      
-      </p>
-    
-    {/* <div className="mt-6">
-    <Button label='Shop now'  />
-    </div> */}
-     
+    <section className=" w-full h-auto p-[40px] max-sm:p-[20px] rounded-3xl bg-white -mt-24">
+      <div className=" ">
+        <h1 className="text-[55px] max-sm:text-[24px] max-sm:leading-7  text-coral-red leading-[70px] font-[700]">
+          WELCOME
+          <br />
+          <span className="font-[300]">
+            TO THE WORLD OF 
+            <br />
+            MAHASHREE
+          </span>
+        </h1>
+        <p className="text-[#626262] mt-2 text-[24px]  max-sm:text-[16px] font-[400] ">
+        where tradition meets purity inevery <br className="max-sm:block hidden" /> drop of our golden goodness
+        </p>
       </div>
-      <div className="flex-1 flex justify-center items-center">
-<img src='https://www.livofy.com/health/wp-content/uploads/2023/03/Ghee.png' alt="" width={570} height={522} className="object-contain"/>
+      <div>
+        <button className="w-[196px] h-[68px]  max-sm:text-[12px] max-sm:gap-2 font-[500] bg-[#F2D913] rounded-full flex justify-center items-center gap-5 text-[20px] mt-5 max-sm:w-[117px] max-sm:h-[40px] ">
+          Know More <img src={arrowRight} alt="" />
+        </button>
       </div>
-    </section>
+    </section>  
   )
 }
 

@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+
+
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/flowbite-react/lib/esm/**/*.js',
   ],
   theme: {
     fontSize: {
@@ -17,14 +20,23 @@ export default {
       '8xl': ['96px', '106px']
     },
     extend: {
-      
+      aspectRatio: {
+        '3/1': '3 / 1',
+      },
+      rotate: {
+        '70': '70.62deg',
+      },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '4rem',
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
         'primary': "#ECEEFF",
-        "coral-red": "#FF6452",
+        "coral-red": "#E31E24",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)"
@@ -41,5 +53,7 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }

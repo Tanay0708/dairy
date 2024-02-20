@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Hero, PopularProduct } from '../sections'
+import { Hero } from '../sections'
 import Gallery from './Gallery'
 import All from './All'
 

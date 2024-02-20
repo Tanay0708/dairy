@@ -1,15 +1,9 @@
 import React from 'react'
 
-const ServiceCard = ({imgURL,label,subtext}) => {
+const ServiceCard = ({head}) => {
   return (
-   <div className='flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] justify-center  shadow-3xl px-10 py-16' > 
-    <div className='w-36 h-36 justify-center items-center bg-coral-white rounded-lg overflow-hidden '>
-        <img src={imgURL} alt={label} className='w-full h-full ' />
-    </div>
-    <h3 className='mt-5 font-palanquin text-3xl leading-normal font-bold'>{label}</h3>
-    <p className='mt-3 break-words font-montserrat text-lg leading-normal text-slate-gray'>
-        {subtext}
-    </p>
+   <div className='hidden max-sm:block h-full w-full ' > 
+   <img src={head} alt=""  className='h-full w-full'/>
    </div>
   )
 }

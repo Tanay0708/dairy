@@ -7,6 +7,7 @@ import {
   } from './EmblaCarouselArrowsDotsButtons'
 import {bucket, dairy01, dairy02, dairy03, jar1ltr } from '../assets/images'
 import '../index.css';
+import { d1, d2, d3, d4 } from '../assets/new';
 
 
 
@@ -42,7 +43,7 @@ export function EmblaCarousel(props) {
       setPrevBtnDisabled(!emblaApi.canScrollPrev())
       setNextBtnDisabled(!emblaApi.canScrollNext())
     }, [])
-    const slides = [bucket,dairy02,jar1ltr]
+    const slides = [d1,d2,d3,d4]
   
     useEffect(() => {
       if (!emblaApi) return
@@ -65,7 +66,7 @@ export function EmblaCarousel(props) {
                     <span>{index + 1}</span>
                   </div>
                   <img
-                    className="embla__slide__img" 
+                    className="embla__slide__img aspect-3/1 max-lg:aspect-auto max-lg:h-[100%]" 
                     src={el}
                     alt="Your alt text"
                   />

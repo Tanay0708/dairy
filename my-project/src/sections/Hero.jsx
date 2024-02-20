@@ -1,47 +1,33 @@
 import { useState } from "react"
-import { arrowRight } from "../assets/icons"
-import { bigShoe1, dairy01 } from "../assets/images"
-import Button from "../components/Button"
-import ShoeCard from "../components/ShoeCard"
-import { shoes, statistics } from "../constants";
-import {Link} from 'react-router-dom';
-import { EmblaCarousel } from "../components/EmblaCarousel"
+import { dairy01, line, plane } from "../assets/images"
+
 
 
 const Hero = () => {
 
 
-  const [bigShoeImg,setBigShoeImg] = useState(dairy01);
 
 
   return (
-    <section
-    id='home'
-    className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
-  >
-    <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
+    <section className=" w-full h-screen flex max-sm:flex-col max-sm:mt-12   ">
+      {/* text div */}
+      <div className=" w-[60%] max-sm:w-full flex flex-col  justify-center  h-[300px] max-sm:mt-0 mt-20 ml-15  " >
+        <h1 className="text-[3.5rem] text-coral-red max-sm:text-[28px] font-[700] max-sm:font-[400] max-lg:text-[2rem] leading-12 max-sm:leading-9">
+          DISCOVER THE <br className="hidden max-sm:block" /> RICHNESS OF <span className="max-sm:text-[28px] max-sm:font-[700] "> MAHASHREE COW GHEE
+          </span> 
+
+        </h1>
+        <p className="text-[25px] max-sm:text-[18px] mt-[10px] text-gray-500 max-sm:leading-5  ">Experience the essence of tradition with Mahashree Cow Ghee. Prue, rich, and authentic</p>
+
+      </div>
+      {/* image div */}
+      <div className=" w-[50%] h-[full] max-sm:w-full max-sm:h-[60%] relative max-sm:-mt-   ">
+          <img src={dairy01}  className="z-10  max-lg:h-[80%] h-full w-full  absolute -top-8 right-6 max-sm:h-[90%] max-sm:w-full   "  alt="" />
+          <img src={line}  className= "z-0 absolute -top-60 -left-80   -rotate-[70deg] max-sm:hidden h-[800px] max-lg:hidden" alt="" />
+          <img src={plane} className="absolute w-24 -top-0 -rotate-[70deg] -left-40 max-sm:left-52 max-sm:w-12 max-sm:-top-60  z-0" alt="" />
+      </div>
      
-
-      <h1 className='mt-10 font-montserrat text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
-        <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
-        स्वाद और <span className='text-coral-red inline-block mt-3'> शुद्धत्ता  </span> 
-        </span>
-        <br />
-      
-         <span className='text-coral-red inline-block mt-3'> से भरपूर... </span> 
-      </h1>
-      <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-      महाश्री घी में, हम आपके लिए सटीकता और देखभाल के साथ तैयार की गई बेहतरीन गुणवत्ता वाला घी लाते हैं। अपने आप को हमारे स्वर्णिम अमृत की मखमली समृद्धि में डुबो दें, जो सदियों से दुनिया भर के रसोईघरों में इस्तेमाल किया जाता रहा है।
-      </p>
-
-      
-    </div>
-
-    <div className='relative flex-1 flex justify-center items-center xl:min-h-full  max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
-     
-     <EmblaCarousel />
-    </div>
-  </section>
+    </section>
   )
 }
 

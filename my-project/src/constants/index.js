@@ -1,12 +1,13 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, bucket, customer1, customer2, dairy01, dairy02, dairy03, dairy033, danedar, jar1ltr, quality, shoe4, shoe5, shoe6, shoe7, smell, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, white } from "../assets/images";
+import {  bucket, dairy01, dairy02, dairy03, dairy033, jar1ltr, quality } from "../assets/images";
 import {craft, d1, d10, d11, d12, d13, d2, d3, d4, d5, d6, d7, d8, d9, taste} from '../assets/new';
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#products", label: "Products" },
-    { href: "#about-us", label: "About" },
-    { href: "#contact-us", label: "Contact" },
+    { href: "#home", label: "HOME" },
+    { href: "#about-us", label: "ABOUT" },
+    { href: "#products", label: "PRODUCTS" },
+    { href: "#contact-us", label: "GALLERY" },
+    { href: "#contact-us", label: "SERVICES" },
 ];
 
 
@@ -150,20 +151,6 @@ export const services = [
     },
 ];
 
-export const reviews = [
-    {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
-    },
-    {
-        imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
-];
 
 
 export const footerLinks = [
