@@ -2,8 +2,8 @@
 import { Footer } from "flowbite-react";
 import Acc from "../components/Acc";
 import Nav from "../components/Nav";
-import Fass from "../components/fass";
-import { Hero, SpecialOffer, Subscribe, SuperQuality } from "../sections";
+import Fass from "../components/Fass";
+import { Hero,  Subscribe, SuperQuality } from "../sections";
 import GalleryOne from "../sections/GalleryOne";
 import Products from "../sections/Products";
 import CowS from "../components/CowS";
