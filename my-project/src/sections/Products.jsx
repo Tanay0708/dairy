@@ -31,7 +31,7 @@ const Products = () => {
     {
         all.map((el) => (
             <>
-            <PopularProductCard {...el}  />
+            <PopularProductCard {...el} key={head} />
             <ServiceCard {...el} />
             </>
         ))
