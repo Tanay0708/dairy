@@ -33,9 +33,11 @@ const Nav = () => {
           <li>GALLERY</li>
           </Link>
         </ul>
+        <Link to={'/contact-us'}>
         <button className='border-2 h-[60%] w-52 bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
           Contact Us
         </button>
+        </Link>
         <div className='max-sm:flex gap-2 hidden '>
 
         
