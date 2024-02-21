@@ -1,12 +1,11 @@
 
 import Acc from "../components/Acc";
-import Nav from "../components/Nav";
 import Fass from "../components/Fass";
 import { Hero,  Subscribe, SuperQuality } from "../sections";
 import GalleryOne from "../sections/GalleryOne";
 import Products from "../sections/Products";
 import CowS from "../components/CowS";
-import FooterM from "../components/FooterM";
+
 
 
 const All = () => {
@@ -34,6 +33,7 @@ const All = () => {
    
     
     <section className="padding ">
+      
      <Products />
     </section>
     <section className="padding-x py-10">

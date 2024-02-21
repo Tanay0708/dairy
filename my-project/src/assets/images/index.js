@@ -29,8 +29,12 @@ import proseek from './proseek.png';
 import procard from './procard.png';
 import allpro from './allpro.png'
 import contact from './contact.png';
+import wellpro from './wellpro.png'
+import wellprom from './wellprom.png'
 
 export {
+    wellpro,
+    wellprom,
     allpro,
     procard,
     proback,

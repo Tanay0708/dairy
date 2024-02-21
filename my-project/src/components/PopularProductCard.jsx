@@ -2,7 +2,7 @@ import React from 'react'
 import { star } from '../assets/icons'
 import { dairy01, proback, procard, proseek } from '../assets/images'
 
-const PopularProductCard = ({big}) => {
+const PopularProductCard = ({big,name}) => {
   return (
   
   <div className='w-full h-full  relative max-sm:hidden'>
@@ -15,7 +15,7 @@ const PopularProductCard = ({big}) => {
         <div className='w-[50%]'>
           <h1 className='text-[48px] leading-[50px] text-[#E0CE3D] '>PURE GHEE
             <br />
-            <span className='font-[700]'>TETRA PACK</span>
+            <span className='font-[700]'>{name}</span>
 
           </h1>
           <p className='text-t-[28px] w-1/2 font-[400] mt-[15px] text-white'>
