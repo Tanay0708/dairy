@@ -1,42 +1,57 @@
 import { Carousel } from 'flowbite-react'
 import React from 'react'
 import PopularProductCard from '../components/PopularProductCard'
-import { dairy01, dairy02, dairy03, dairy033, pro2, pro3, pro4, pro5, united } from '../assets/images'
+import { bucket, dairy01, dairy02, dairy03, dairy033, pro2, pro3, pro4, pro5, united } from '../assets/images'
 import ServiceCard from '../components/ServiceCard'
 
 
 const all = [
     {
-        head: united
+        head: united,
+        big: dairy01
     },
     {
-        head: pro2
+        head: pro2,
+        big: dairy02,
+        
     },
     {
-        head: pro3
+        head: pro3,
+        big: dairy03
     },
     {
-        head: pro4
+        head: pro4,
+        big: bucket
     },
     {
-        head: pro5
+        head: pro5,
+        big: dairy033
     },
-]
+];
+
+
 
 
 const Products = () => {
   return (
     <div className='h-screen'>
-        <Carousel className='max-sm:h-[70%] h-[80%] max-sm:-mt-20' slide={false}>
+        <Carousel className='max-sm:h-[70%] h-[80%] max-sm:-mt-40 max-lg:h-[400px] border-2  ' slide={false}>
     {
         all.map((el) => (
-            <>
-            <PopularProductCard {...el} key={el.head} />
-            <ServiceCard {...el} key={el.head} />
-            </>
+            <div key={el.head}>
+            <PopularProductCard {...el} />
+            <ServiceCard {...el}  />
+            </div>
         ))
+       
+
+        
     }
+
+   
         </Carousel>
+
+   
     </div>
   )
 }

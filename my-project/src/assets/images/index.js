@@ -6,7 +6,6 @@ import dairy033 from './dairy033.png'
 import dairyLogo from './dairyLogo.png'
 import white from './white.jpg'
 import smell from './smell1.jpg'
-
 import quality from './quality.jpg'
 import dh from './dh.png'
 import jar1ltr from './jar1ltr.png'
@@ -27,9 +26,12 @@ import pro4 from './pro4.png';
 import pro5 from './pro5.png';
 import proback from './proback.png';
 import proseek from './proseek.png';
-import procard from './procard.png'
+import procard from './procard.png';
+import allpro from './allpro.png'
+import contact from './contact.png';
 
 export {
+    allpro,
     procard,
     proback,
     proseek,
@@ -55,7 +57,7 @@ export {
     fssai,
     united,
     foot,
-   
+   contact,
     dh,
    
     bucket,

@@ -1,5 +1,4 @@
 
-import { Footer } from "flowbite-react";
 import Acc from "../components/Acc";
 import Nav from "../components/Nav";
 import Fass from "../components/Fass";
@@ -7,6 +6,7 @@ import { Hero,  Subscribe, SuperQuality } from "../sections";
 import GalleryOne from "../sections/GalleryOne";
 import Products from "../sections/Products";
 import CowS from "../components/CowS";
+import FooterM from "../components/FooterM";
 
 
 const All = () => {
@@ -14,7 +14,7 @@ const All = () => {
     <main className="relative p-5 max-sm:p-0">
   
     <section className="xl:padding-l wide:padding-r mb-0 ">
-    <Nav />
+    {/* <Nav /> */}
     </section>
     <section className="padding">
     <Hero />
@@ -44,17 +44,15 @@ const All = () => {
      
      <CowS />
      </section>
-    <section className="padding-x py-10">
+    {/* <section className="padding-x py-10">
     
     <Subscribe />
     </section>
-    {/* <section className="padding-x py-10">
-    
-    <Footer />
-    </section>
-    <section className="padding-x  padding-t pb-8">
-    
+    <section className="mt-10 ">
+    <FooterM />
+   
     </section> */}
+    
   </main>
   )
 }

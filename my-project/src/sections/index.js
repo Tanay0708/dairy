@@ -4,7 +4,7 @@ import SpecialOffer from './SpecialOffer';
 import Subscribe from './Subscribe';
 import SuperQuality from './SuperQuality';
 
-import Footer from './Footer';
+
 
 
 export {
@@ -14,5 +14,5 @@ export {
     Subscribe,
     SuperQuality,
   
-    Footer
+   
 }

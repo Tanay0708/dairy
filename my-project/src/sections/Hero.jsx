@@ -22,9 +22,9 @@ const Hero = () => {
       </div>
       {/* image div */}
       <div className=" w-[50%] h-[full] max-sm:w-full max-sm:h-[60%] relative max-sm:-mt-   ">
-          <img src={dairy01}  className="z-10  max-lg:h-[80%] h-full w-full  absolute -top-8 right-6 max-sm:h-[90%] max-sm:w-full   "  alt="" />
+          <img src={dairy01}  className="z-10  max-lg:h-[40%] h-full w-full  absolute -top-8 right-6 max-sm:h-[90%] max-sm:w-full   "  alt="" />
           <img src={line}  className= "z-0 absolute -top-60 -left-80   -rotate-[70deg] max-sm:hidden h-[800px] max-lg:hidden" alt="" />
-          <img src={plane} className="absolute w-24 -top-0 -rotate-[70deg] -left-40 max-sm:left-52 max-sm:w-12 max-sm:-top-60  z-0" alt="" />
+          <img src={plane} className="absolute w-24 -top-0 -rotate-[70deg] -left-40 max-sm:left-52 max-sm:w-12 max-sm:-top-60 max-lg:hidden max-sm:block z-0" alt="" />
       </div>
      
     </section>
