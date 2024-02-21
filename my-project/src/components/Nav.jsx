@@ -22,9 +22,13 @@ const Nav = () => {
           <li>HOME</li>
           </Link>
           <Link to={'/about'}>
+           
           <li>ABOUT</li>
+          
           </Link>
+          <Link to={'/products'}>
           <li>PRODUCT</li>
+          </Link>
           <Link to={'/gallery'}>
           <li>GALLERY</li>
           </Link>
