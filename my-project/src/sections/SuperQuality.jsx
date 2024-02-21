@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { arrowRight } from "../assets/icons"
 import { dh, ghee } from "../assets/images"
 import Button from "../components/Button"
@@ -21,9 +22,11 @@ const SuperQuality = () => {
         </p>
       </div>
       <div>
+        <Link to={'/about'}>
         <button className="w-[196px] h-[68px]  max-sm:text-[12px] max-sm:gap-2 font-[500] bg-[#F2D913] rounded-full flex justify-center items-center gap-5 text-[20px] mt-5 max-sm:w-[117px] max-sm:h-[40px] ">
           Know More <img src={arrowRight} alt="" />
         </button>
+        </Link>
       </div>
     </section>  
   )

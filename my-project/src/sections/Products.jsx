@@ -35,7 +35,7 @@ const all = [
 const Products = () => {
   return (
     <div className='h-screen'>
-        <Carousel className='max-sm:h-[70%] h-[80%] max-sm:-mt-40 max-lg:h-[400px] border-2  ' slide={false}>
+        <Carousel className='max-sm:h-[70%] h-[80%] max-sm:-mt-40 max-lg:h-[400px]   ' slide={false}>
     {
         all.map((el) => (
             <div key={el.head}>

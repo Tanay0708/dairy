@@ -46,13 +46,13 @@ const All = () => {
      </section>
     {/* <section className="padding-x py-10">
     
-    <Subscribe />
+     <Subscribe />
     </section>
     <section className="mt-10 ">
     <FooterM />
    
-    </section> */}
-    
+    </section>
+     */}
   </main>
   )
 }
