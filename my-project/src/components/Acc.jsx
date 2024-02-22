@@ -4,7 +4,7 @@ import { Accordion } from 'flowbite-react';
 
 const Acc = () => {
     return (
-      <section className=' flex flex-col justify-center max-sm:-mt-64 max-sm:bg-white max-sm:pb-10 rounded-xl'>
+      <section className=' flex flex-col justify-center max-sm:-m max-sm:bg-white max-sm:pb-10 rounded-xl'>
        <div className='text-center  max-sm:px-5 max-sm:pt-5'>
        <h2 className='text-[40px] max-sm:text-[24px] text-coral-red font-[300]'>OUR <span className='font-[700]'>PRODUCTS</span> ARE</h2>
        <p className='text-[28px] max-sm:text-[14px] max-sm:leading-4 max-sm:text-left text-gray-400 leading-8'>

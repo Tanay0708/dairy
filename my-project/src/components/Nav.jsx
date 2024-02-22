@@ -22,9 +22,7 @@ const Nav = () => {
           <li>HOME</li>
           </Link>
           <Link to={'/about'}>
-           
-          <li>ABOUT</li>
-          
+         <li>ABOUT</li>
           </Link>
           <Link to={'/products'}>
           <li>PRODUCT</li>
@@ -34,7 +32,7 @@ const Nav = () => {
           </Link>
         </ul>
         <Link to={'/contact-us'}>
-        <button className='border-2 h-[60%] w-52 bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
+        <button className='border-2 h-[3rem] w-[10rem] bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
           Contact Us
         </button>
         </Link>

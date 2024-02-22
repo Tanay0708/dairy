@@ -1,6 +1,6 @@
 import React from 'react'
 import { seek, well } from '../assets/images';
-import { Button } from 'flowbite-react';
+
 
 import { d1, d10, d11, d12, d13, d2, d3, d4, d5, d6, d7, d8, d9 } from '../assets/new';
 import { Carousel } from 'flowbite-react';
@@ -13,11 +13,11 @@ const GalleryOne = () => {
         <div className=' max-sm:h-[80%] w-full h-full rounded-3xl overflow-hidden max-sm:rounded-lg bg-[#E0CE3D] p-5 max-sm:p-1 '>
           <div className=' h-[141px] w-[63%] max-sm:left-10   flex absolute left-30 justify-between items-center mt-5 ml-5   '>
             <img src={well} className='w-[323px] max-sm:w-[162px] max-sm:h-[70px] h-full' alt="" />
-            <Link to={'/gallery'}>
-            <button className='flex items-center text-[20px] justify-center   bg-white rounded-full gap-5 max-lg:w-[100px] max-lg:h-[40px] max-lg:text-[14px] w-[165px] h-[64px] max-sm:w-[92px] max-sm:h-[40px] max-sm:text-[12px]'>
+            <Link to={'/about'}>
+            <div className='flex items-center text-[20px] justify-center   bg-white rounded-full gap-5 max-lg:w-[100px] max-lg:h-[40px] max-lg:text-[14px] w-[165px] h-[64px] max-sm:w-[92px] max-sm:h-[40px] max-sm:text-[12px] max-sm:p-2'>
               See All
               <img src={arrowRight} alt="" />
-            </button>
+            </div>
             </Link>
           </div>
             <div className=' relative   h-40 max-sm:h-28 w-full   overflow-hidden '>
