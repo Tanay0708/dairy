@@ -23,9 +23,18 @@ const NavMenu = ({handleClick}) => {
       </Link>
       <li className='hover:text-coral-red'>
       <ul className='flex gap-10 justify-center'>
-                <li className='border-2 border-black w-10 h-10 p-2 rounded-full'><img src={facebook} alt="" /></li>
-                <li className='border-2 border-black w-10 h-10 p-2 rounded-full'><img src={instagram} alt="" /></li>
-                <li className='border-2 border-black w-10 h-10 p-2 rounded-full'><img src={twitter} alt="" /></li>
+                <li className='border-2 border-black w-10 h-10 p-2 rounded-full'>
+                  
+                  <a href="https://www.facebook.com/profile.php?id=61555865115775&mibextid=ZbWKwL" target='_blank'>
+                  <img src={facebook} alt="" />
+                  </a></li>
+                  
+                <li className='border-2 border-black w-10 h-10 p-2 rounded-full'>
+                  <a href="https://www.instagram.com/mahashree2024?igsh=MXhycWY4M3lmaGFoMg==" target='_blank'>
+                  <img src={instagram} alt="" />
+                  </a>
+                  </li>
+              
             </ul>
       </li>
     </ul>

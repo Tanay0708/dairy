@@ -45,7 +45,7 @@ const ShowProduct = () => {
        PRODUCTS
       </button>
     <div className='h-auto mb-20 max-sm:mt-20'>
-    <div className='max-sm:h-[70%] h-[80%] w-[80%] m-auto max-sm:-mt-20 ' slide={false}>
+    <div className='max-sm:h-[70%] h-[80%] w-[80%] m-auto max-sm:-mt-20 ' slide="false">
 {
     all.map((el) => (
         <div key={el.head}>

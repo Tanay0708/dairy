@@ -3,11 +3,24 @@ import { dairyLogo } from '../assets/images';
 import { facebook, hamburger, instagram, twitter } from '../assets/icons';
 import NavMenu from './NavMenu';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 const Nav = () => {
+  const {t} = useTranslation()
 
   const [open,setOpen] = useState(false);
+  const languages = [
+    {
+      code: "en",
+      lang: "English"
+    },
+    {
+      code: "hindi",
+      lang: "Hindi"
+    }
+  ]
+
 
 
   const handleClick = () => {
@@ -31,11 +44,16 @@ const Nav = () => {
           <li>GALLERY</li>
           </Link>
         </ul>
+        <div className='flex  gap-4'>
+        <button className='  max-sm:hidden h-[3rem] w-[3rem] rounded-full bg-[#F2D913] text-[20px]'>
+      Hi
+        </button>
         <Link to={'/contact-us'}>
-        <button className='border-2 h-[3rem] w-[10rem] bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
+        <button className='b h-[3rem] w-[10rem] bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
           Contact Us
         </button>
         </Link>
+        </div>
         <div className='max-sm:flex gap-2 hidden '>
 
         

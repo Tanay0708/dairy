@@ -6,7 +6,7 @@ import Button from "../components/Button"
 
 const SuperQuality = () => {
   return (
-    <section className=" w-full h-auto p-[40px] max-sm:p-[20px] rounded-3xl bg-white -mt-24">
+    <section className=" w-full h-auto p-[40px] max-sm:p-[20px] rounded-3xl bg-white -mt-40">
       <div className=" ">
         <h1 className="text-[55px] max-sm:text-[24px] max-sm:leading-7  text-coral-red leading-[70px] font-[700]">
           WELCOME
