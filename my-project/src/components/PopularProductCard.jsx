@@ -1,8 +1,10 @@
-import React from 'react'
-import { star } from '../assets/icons'
-import { dairy01, proback, procard, proseek } from '../assets/images'
+import React from 'react';
+import { proback,  proseek } from '../assets/images'
 
 const PopularProductCard = ({big,name}) => {
+
+
+  
   return (
   
   <div className='w-full h-full  relative max-sm:hidden'>

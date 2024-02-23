@@ -9,26 +9,32 @@ import FooterM from '../components/FooterM';
 const all = [
     {
         head: united,
-        big: dairy01
+        big: dairy01,
+        name: "TETRA BOX"
     },
     {
         head: pro2,
         big: dairy02,
+        name: "TIN JAR"
         
     },
     {
         head: pro3,
-        big: dairy03
+        big: dairy03,
+        name: "TETRA PACK"
     },
     {
         head: pro4,
-        big: bucket
+        big: bucket,
+        name: "JAR"
     },
     {
         head: pro5,
-        big: dairy033
+        big: dairy033,
+        name: "TETRA PACK"
     },
 ];
+
 
 
 
