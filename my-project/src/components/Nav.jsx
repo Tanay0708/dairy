@@ -45,9 +45,9 @@ const Nav = () => {
           </Link>
         </ul>
         <div className='flex  gap-4'>
-        <button className='  max-sm:hidden h-[3rem] w-[3rem] rounded-full bg-[#F2D913] text-[20px]'>
+        {/* <button className='  max-sm:hidden h-[3rem] w-[3rem] rounded-full bg-[#F2D913] text-[20px]'>
       Hi
-        </button>
+        </button> */}
         <Link to={'/contact-us'}>
         <button className='b h-[3rem] w-[10rem] bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
           Contact Us
