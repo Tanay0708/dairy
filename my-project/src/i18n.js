@@ -48,7 +48,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 navA:"ABOUT",
                 navP:"PRODUCT",
                 navG:"GALLERY",
-                navC:"Contact Us",
+                navC:"CONTACT US",
                 aboutP1: " Our journey begins with a passion for preserving the essence of tradition, crafting premium ghee that embodies the rich heritage of our culture. ",
                 aboutP2: "Delve into the heart of our story, where generations of expertise merge with modern innovation.",
                 aboutP3: "Rooted in time-honored techniques passed down through our family, MAHASHREE Ghee is the culmination of years of dedication to perfecting the art of ghee-making."
