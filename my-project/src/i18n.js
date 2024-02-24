@@ -12,7 +12,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 heroH1: "DISCOVER THE",
                 heroH2: "RICHNESS OF",
                 heroH3:" MAHASHREE COW GHEE",
-                heroP: "Experience the essence of tradition with Mahashree Cow Ghee. Prue, rich, and authentic",
+                heroP: "Experience the essence of tradition with Mahashree Cow Ghee. Pure, rich, and authentic",
                 sqH1: "WELCOME",
                 sqH2: "TO THE WORLD OF",
                 sqH3: "MAHASHREE",
