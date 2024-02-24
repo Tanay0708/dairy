@@ -4,12 +4,17 @@ import Nav from '../components/Nav'
 import { dairy01, dairy02, dairy03, dairyLogo, dh } from '../assets/images'
 import { d1, d10, d11, d12, d13, d2, d3, d4, d5, d6, d7, d8, d9 } from '../assets/new'
 import { p1, p2, p3, p4, p5, p6, p7, p8, p9, v1, v2, v3, v4, v5, v6, v7, v8 } from '../assets/videos'
+import { useTranslation } from 'react-i18next'
 
 const Gallery = () => {
+
+  const {t} = useTranslation()
+
+
   return (
     <div className='p-10 max-sm:p-2 '>
       <button className='border-2 border-[#E0CE3D] max-sm:text-[12px] text-[#4A4A4A] mb-10 w-[200px] h-[60px] rounded-full max-sm:h-[24px] max-sm:w-[86px] max-sm:mt-28 '>
-        GALLERY
+       {t("navG")}
       </button>
   <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
       <div className="grid gap-4">

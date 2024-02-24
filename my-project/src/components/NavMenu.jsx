@@ -1,25 +1,29 @@
 import React from 'react'
 import { facebook, instagram, twitter } from '../assets/icons'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const NavMenu = ({handleClick}) => {
+
+  const {t} = useTranslation();
+
   return (
     <>    <div className=' absolute w-full left-0 hidden max-sm:block h-[350px] bg-white top-0 text-center'>
     <ul className='h-full  flex flex-col gap-3 text-[24px] mt-5'>
       <Link to={'/'}>
-      <li className='hover:text-coral-red'  onClick={handleClick} >Home</li>
+      <li className='hover:text-coral-red'  onClick={handleClick} >{t("navH")}</li>
       </Link>
       <Link to={'/about'}>
-      <li className='hover:text-coral-red'  onClick={handleClick}>About</li>
+      <li className='hover:text-coral-red'  onClick={handleClick}>{t("navA")}</li>
       </Link>
       <Link to={'products'}>
-      <li className='hover:text-coral-red'  onClick={handleClick}>Product</li>
+      <li className='hover:text-coral-red'  onClick={handleClick}>{t("navP")}</li>
       </Link>
       <Link to={'/gallery'}>
-      <li className='hover:text-coral-red'  onClick={handleClick}>Gallery</li>
+      <li className='hover:text-coral-red'  onClick={handleClick}>{t("navG")}</li>
       </Link>
       <Link to={'/contact-us'}>
-      <li className='hover:text-coral-red'  onClick={handleClick}>Contact us</li>
+      <li className='hover:text-coral-red'  onClick={handleClick}>{t("navC")}</li>
       </Link>
       <li className='hover:text-coral-red'>
       <ul className='flex gap-10 justify-center'>

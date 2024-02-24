@@ -5,18 +5,23 @@ import { seek, well } from '../assets/images';
 import { d1, d10, d11, d12, d13, d2, d3, d4, d5, d6, d7, d8, d9 } from '../assets/new';
 import { Carousel } from 'flowbite-react';
 import { arrowRight } from '../assets/icons';
-import { Link, Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const GalleryOne = () => {
+
+  const {t} = useTranslation()
+
+
   return (
     <section className=' h-[650px]   w-[80%] m-auto  pb-10 pr-2 pl-2 max-sm:w-[100%]  max-sm:p-0'>
         <div className=' max-sm:h-[80%] w-full h-full rounded-3xl overflow-hidden max-sm:rounded-lg bg-[#E0CE3D] p-5 max-sm:p-1 '>
           <div className=' h-[141px] w-[63%] max-sm:left-10   flex absolute  left-30 justify-between items-center mt-5 ml-5   '>
             <img src={well} className='w-[323px] max-sm:w-[162px] max-sm:h-[70px] h-full' alt="" />
             <Link to={'/gallery'}>
-            <button  className='flex items-center text-[20px] justify-center cursor-pointer   bg-white rounded-full gap-5 max-lg:w-[100px] max-lg:h-[40px] max-lg:text-[14px] w-[165px] h-[64px] max-sm:w-[92px] max-sm:h-[40px] max-sm:text-[12px] max-sm:p-2'>
-              See All
-              <img src={arrowRight} alt="" />
+            <button  className='flex items-center text-[20px] justify-center cursor-pointer   bg-white rounded-full gap-2 max-lg:w-[100px] max-lg:h-[40px] max-lg:text-[14px] w-[165px] h-[64px] max-sm:w-[92px] max-sm:h-[40px] max-sm:text-[12px] max-sm:p-1'>
+              {t("galleryOb")}
+              <img src={arrowRight} className='' alt="" />
             </ button>
             </Link>
           </div>

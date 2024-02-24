@@ -4,6 +4,7 @@ import PopularProductCard from '../components/PopularProductCard';
 import ServiceCard from '../components/ServiceCard';
 import { Subscribe } from '../sections';
 import FooterM from '../components/FooterM';
+import { useTranslation } from 'react-i18next';
 
 
 const all = [
@@ -39,10 +40,13 @@ const all = [
 
 
 const ShowProduct = () => {
+
+    const {t} = useTranslation();
+
   return (
     <>
     <button className='mt-10  border-2 border-[#E0CE3D] max-sm:text-[12px] text-[#4A4A4A] mb-10 w-[200px] h-[60px] rounded-full max-sm:h-[24px] max-sm:w-[86px] max-sm:mt-32 '>
-       PRODUCTS
+      {t("navP")}
       </button>
     <div className='h-auto mb-20 max-sm:mt-20'>
     <div className='max-sm:h-[70%] h-[80%] w-[80%] m-auto max-sm:-mt-20 ' slide="false">
