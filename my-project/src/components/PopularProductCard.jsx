@@ -2,7 +2,7 @@ import React from 'react';
 import { proback,  proseek } from '../assets/images'
 import { useTranslation } from 'react-i18next';
 
-const PopularProductCard = ({big,name}) => {
+const PopularProductCard = ({big,name,size}) => {
 
   const {t} = useTranslation();
 
@@ -28,7 +28,7 @@ const PopularProductCard = ({big,name}) => {
           </p>
           <button className=' mt-9 w-[300px] h-[70px] pl-5 bg-white bg-opacity-[10%] text-white rounded-lg text-left'>
              <h1 className='font-[700]'>Available Sizes</h1> 
-              <p className='text-[16px]'>200ml, 500ml, & 1ltr</p>
+              <p className='text-[16px]'>{size}</p>
           </button>
 
         </div>

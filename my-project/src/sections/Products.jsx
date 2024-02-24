@@ -1,7 +1,7 @@
 import { Carousel } from 'flowbite-react'
 import React from 'react'
 import PopularProductCard from '../components/PopularProductCard'
-import { bucket, dairy01, dairy02, dairy03, dairy033, pro2, pro3, pro4, pro5, united, wellpro, wellprom } from '../assets/images'
+import { bucket, dairy01, dairy02, dairy03, dairy033, jar1ltr, pro2, pro3, pro4, pro5, united, wellpro, wellprom } from '../assets/images'
 import ServiceCard from '../components/ServiceCard'
 
 
@@ -9,28 +9,33 @@ const all = [
     {
         head: united,
         big: dairy01,
-        name: "TETRA BOX"
+        name: "TETRA BOX",
+        size: "200ml,500ml & 1ltr"
     },
     {
         head: pro2,
         big: dairy02,
-        name: "TIN JAR"
+        name: "TIN JAR",
+        size: "15Ltr. Jar"
         
     },
     {
         head: pro3,
         big: dairy03,
-        name: "TETRA PACK"
+        name: "TETRA PACK",
+        size: "200ml,500ml & 1ltr"
     },
     {
         head: pro4,
         big: bucket,
-        name: "JAR"
+        name: "JAR",
+        size: "5Ltr. Jar"
     },
     {
         head: pro5,
-        big: dairy033,
-        name: "TETRA PACK"
+        big: jar1ltr,
+        name: "JAR",
+        size: "200ml,500ml & 1ltr"
     },
 ];
 
