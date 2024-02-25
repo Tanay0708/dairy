@@ -53,7 +53,7 @@ const Nav = () => {
         {language}
           </button>
         <Link to={'/contact-us'}>
-        <button className='b h-[3rem] w-[10rem] bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
+        <button className='b h-[3rem] w-[10rem]  bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
         {t("navC")}
         </button>
         </Link>

@@ -32,7 +32,10 @@ const Subscribe = () => {
       <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md w-full max-sm:w-full ">
         <div className="lg:w-1/2 px-6">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">{t("subAh")}</h2>
-          <p className="mt-1">{t("subAp")}</p>
+          <p className="mt-1">{t("subAp1")}
+          <br />
+          {t("subAp2")}
+          </p>
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">{t("subEh")}</h2>
