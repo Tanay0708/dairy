@@ -32,20 +32,20 @@ const Nav = () => {
   }
 
   return (
-    <nav className='h-28 max-sm:h-26 flex justify-between items-center max-sm:p-5 max-sm:bg-white max-sm:fixed z-[999] w-full'>
+    <nav className='h-28 max-sm:h-26 flex justify-between items-center max-sm:p-5 max-sm:bg-white max-sm:fixed z-[999] w-full '>
         <img src={dairyLogo} className='h-full w-40 max-sm:w-24' alt="" />
-        <ul className='flex items-center gap-10 text-[18px] font-[700] max-sm:hidden'>
+        <ul className='flex items-center gap-10 text-[18px] font-[700] max-sm:hidden z-[999] '>
          <Link to={'/'}>
-          <li>{t("navH")}</li>
+          <li className='hover:text-[#DB1D23] ' >{t("navH")}</li>
           </Link>
           <Link to={'/about'}>
-         <li>{t("navA")}</li>
+         <li className='hover:text-[#DB1D23]'>{t("navA")}</li>
           </Link>
           <Link to={'/products'}>
-          <li>{t("navP")}</li>
+          <li className='hover:text-[#DB1D23]'>{t("navP")}</li>
           </Link>
           <Link to={'/gallery'}>
-          <li>{t("navG")}</li>
+          <li className='hover:text-[#DB1D23]'>{t("navG")}</li>
           </Link>
         </ul>
         <div className='flex w-1/3 gap-4 justify-evenly'>
@@ -53,7 +53,7 @@ const Nav = () => {
         {language}
           </button>
         <Link to={'/contact-us'}>
-        <button className='b h-[3rem] w-[10rem]  bg-black text-white text-[24px] rounded-full font-[300] imtems-center max-sm:hidden'>
+        <button className='b h-[3rem] w-[10rem]  bg-black text-white text-[20px] rounded-full font-[300] imtems-center max-sm:hidden'>
         {t("navC")}
         </button>
         </Link>

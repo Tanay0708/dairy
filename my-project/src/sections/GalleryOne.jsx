@@ -3,6 +3,7 @@ import { seek, well } from '../assets/images';
 
 
 import { d1, d10, d11, d12, d13, d2, d3, d4, d5, d6, d7, d8, d9 } from '../assets/new';
+import {p1, p2, p3, p4, p5, p6, p7, p8} from '../assets/videos'
 import { Carousel } from 'flowbite-react';
 import { arrowRight } from '../assets/icons';
 import { Link } from 'react-router-dom';
@@ -31,15 +32,15 @@ const GalleryOne = () => {
             <div className='w-[full] max-sm:h-[78%] h-[75%] rounded-xl '>
             <Carousel slide={false} className='h-full rounded-xl '>
             
-              <img src={d2} alt="" className='h-[80%]  object-contain' />
-              {/* <img src={d5} alt="" className='h-[80%] object-contain' /> */}
-              <img src={d6} alt="" className='h-[80%] object-contain' />
-              <img src={d7} alt="" className='h-[80%] object-contain' />
-              <img src={d8} alt="" className='h-[80%] object-contain' />
+              <img src={p1} alt="" className='h-[80%]  object-contain' />
+              <img src={p3} alt="" className='h-[80%] object-contain' />
+              <img src={p2} alt="" className='h-[80%] object-contain' />
+              <img src={p4} alt="" className='h-[80%] object-contain' />
+              <img src={p5} alt="" className='h-[80%] object-contain' />
               {/* <img src={d9} alt="" className='h-[80%] object-contain' /> */}
-              <img src={d10} alt="" className='h-[80%] object-contain' />
-              <img src={d11} alt="" className='h-[80%] object-contain' />
-              <img src={d12} alt="" className='h-[80%] object-contain' />
+              <img src={p6} alt="" className='h-[80%] object-contain' />
+              <img src={p7} alt="" className='h-[80%] object-contain' />
+              <img src={p8} alt="" className='h-[80%] object-contain' />
               <img src={d13} alt="" className='h-[80%] object-contain' />
             
 
