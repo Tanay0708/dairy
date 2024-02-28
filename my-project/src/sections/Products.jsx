@@ -10,7 +10,7 @@ const all = [
         head: united,
         big: dairy01,
         name: "TETRA BOX",
-        size: "200ml,500ml & 1ltr"
+        size: "500 ml"
     },
     {
         head: pro2,
@@ -23,19 +23,19 @@ const all = [
         head: pro3,
         big: dairy03,
         name: "TETRA PACK",
-        size: "200ml,500ml & 1ltr"
+        size: "30 ml"
     },
     {
         head: pro4,
         big: bucket,
         name: "JAR",
-        size: "5Ltr. Jar"
+        size: "5 Ltr. Jar"
     },
     {
         head: pro5,
         big: jar1ltr,
         name: "JAR",
-        size: "200ml,500ml & 1ltr"
+        size: "1 ltr"
     },
 ];
 

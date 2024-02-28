@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const PopularProductCard = ({big,name,size}) => {
 
   const {t} = useTranslation();
-
+ 
 
   
   return (
